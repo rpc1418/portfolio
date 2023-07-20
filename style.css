@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    background-image: url('./photo.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: normal;
+
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span {
+    color: #8739fa;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.menu a {
+    display: block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 20px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.menu:hover li {
+    opacity: 0.4;
+}
+
+.menu li:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.profile {
+    padding-top: 100px;
+    padding-left: 800px;
+    padding-right: 00px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.profile-card {
+    width: 80%;
+    height: 100%;
+    border-radius: 50px;
+    border-color: #151418;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 10px;
+
+    transition: 0.2s all ease-in-out;
+
+}
+
+/* .profile-img {
+    scale: 90%;
+} */
+
+.profile-desc {
+    padding: 20px;
+    display: inline-block;
+}
+
+.name {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 2s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+}
+
+
+
+.profile-desc hr {
+    margin: 10px 0;
+    
+}
+
+.profile-desc h1 {
+    font-size: 40px;
+    font-weight: 600;   
+    
+}
+
+.profile-desc a {
+    color: aliceblue;
+}
+
+/* .profile:hover .profile-card {
+    transform: scale(1.05);
+    background-color: #151418;
+} */
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+/* .footer-bottom {
+    
+} */
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .profile {
+        padding: 50px;
+    }
+
+    .profile-card {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-desc {
+        padding: 10px;
+    }
+
+    .projects-heading {
+        font-size: 36px;
+        padding: 50px 0;
+    }
+
+    .project-card {
+        flex: 100%;
+    }
+
+    .contact-heading {
+        font-size: 36px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
