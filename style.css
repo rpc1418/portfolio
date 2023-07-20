@@ -179,24 +179,7 @@ footer {
         padding: 10px;
     }
 
-    .projects-heading {
-        font-size: 36px;
-        padding: 50px 0;
-    }
-
-    .project-card {
-        flex: 100%;
-    }
-
-    .contact-heading {
-        font-size: 36px;
-        padding-top: 50px;
-        padding-bottom: 40px;
-    }
-
-    .contact-form {
-        width: 100%;
-    }
+   
 }
 
 @keyframes typing {
