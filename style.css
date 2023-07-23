@@ -6,10 +6,7 @@
     font-family: sans-serif;
     text-decoration: none;
     list-style: none;
-    background-color: black;
-    background-image: url('./photo.jpg') ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
 
 
 }
@@ -18,6 +15,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    background-image: url('./photo.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
 .logo a {
@@ -30,14 +31,7 @@ body {
     color: #0051ff;
 }
 
-.header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    z-index: 1;
-}
+
 
 nav {
     display:flex ;
@@ -62,14 +56,15 @@ nav {
 
 .menu:hover li a {
     opacity: 0.4;
-
+    transition-duration: .5s;
 }
 
 .menu li:hover a {
     opacity: 1;
     font-size: 20px;
-    color: #fff;
-    transition-duration: .4s;
+    color: #cbe9ff;
+    transition-duration: 1s;
+
 }
 
 .profile {
@@ -97,9 +92,7 @@ nav {
 
 }
 
-/* .profile-img {
-    scale: 90%;
-} */
+
 
 .profile-desc {
     padding: 20px;
@@ -126,17 +119,6 @@ nav {
     animation-fill-mode: forwards;
 }
 
- /* .ab {
-    white-space:nowrap;
-    overflow:hidden;
-    opacity:0;
-    -webkit-animation: type 5s steps(40, end);
-    animation: type3 5s steps(40, end);
-    -webkit-animation-delay: 10s; 
-    animation-delay: 10s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}  */
 
 
 .profile-desc hr {
@@ -154,10 +136,13 @@ nav {
     color: aliceblue;
 }
 
-/* .profile:hover .profile-card {
+ .profile:hover .profile-desc a {
+    color: rgb(189, 227, 255);
+ 
+} 
+.profile:hover .profile-card {
     transform: scale(1.05);
-    background-color: #151418;
-} */
+} 
 
 
 
