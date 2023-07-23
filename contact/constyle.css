@@ -4,11 +4,7 @@
     font-family: sans-serif;
     text-decoration: none;
     list-style: none;
-    background-color: black;
-    background-image: url('../photo.jpg') ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: normal;
+    
 
 
 }
@@ -17,6 +13,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    background-image: url('../photo.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
 .logo a {
@@ -26,27 +26,20 @@ body {
 }
 
 .logo span {
-    color: #8739fa;
+    color: #0051ff;
 }
 
-.header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    z-index: 1;
-}
+
 
 nav {
-    display: flex;
+    display:flex ;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
 }
 
 .menu a {
-    display: block;
+    display: inline-flexbox;
     padding: 7px 15px;
     font-size: 17px;
     font-weight: 500;
@@ -59,13 +52,16 @@ nav {
     transition: opacity 0.2s ease-in-out;
 }
 
-.menu:hover li {
+.menu:hover li a {
     opacity: 0.4;
+    transition-duration: .5s;
 }
 
-.menu li:hover {
+.menu li:hover a {
     opacity: 1;
-    color: #fff;
+    font-size: 20px;
+    color: #cbe9ff;
+    transition-duration: 1s;
 }
 
 footer {
