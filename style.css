@@ -69,11 +69,11 @@ nav {
 
 .profile {
     padding-top: 100px;
-    padding-left: 800px;
-    padding-right: 00px;
+    padding-left: 00px;
+    padding-right: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:right;
+    align-items:center;
     color: #fff;
 }
 
@@ -85,7 +85,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    justify-content:right;
     border-radius: 10px;
 
     transition: 0.2s all ease-in-out;
@@ -126,6 +126,10 @@ nav {
     
 }
 
+.ab {
+    width: 500px;
+}
+
 .profile-desc h1 {
     font-size: 40px;
     font-weight: 600;   
@@ -160,8 +164,15 @@ footer {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
+    menu a {
+        display: inline-flexbox;
+        padding: 7px 15px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #fff;
+    }
     .profile {
-        padding: 50px;
+        padding: 100px;
     }
 
     .profile-card {
@@ -202,23 +213,3 @@ footer {
     to { width: 100% }
 }
 
-span{
-    animation: blink 1s infinite;
-  }
-
-@keyframes type3{
-    0%{width: 0;}
-    from {opacity:0;}
-  1%{opacity:1;}
-  to{opacity:1;}
-  100%{opacity:1;}
-  
-  } 
-
-  @-webkit-keyframes type3{
-    0%{width: 0;}
-    from {opacity:0;}
-  1%{opacity:1;}
-  to{opacity:1;}
-  100%{opacity:1;}
-  }  
