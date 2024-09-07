@@ -1,5 +1,7 @@
 # 🌟 Rudraksh Chourey - Portfolio
 
+![GitHub repo size](https://img.shields.io/github/repo-size/rpc1418/portfolio) ![License](https://img.shields.io/github/license/rpc1418/portfolio) ![Contributors](https://img.shields.io/github/contributors/rpc1418/portfolio)
+
 Welcome to my personal portfolio repository! This site showcases my background, skills, and projects, offering a glimpse into my journey as an Electronics and Computer Engineer.
 
 ## 🗂️ Sections
