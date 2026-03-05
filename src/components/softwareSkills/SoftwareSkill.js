@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
-
+import StyleContext from "../../contexts/StyleContext";
 export default function SoftwareSkill() {
+  const {isDark} = useContext(StyleContext);
   return (
     <div>
+      <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>
+        Tech Stacks
+      </h1>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => {

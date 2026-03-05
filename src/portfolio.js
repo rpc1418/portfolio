@@ -23,11 +23,14 @@ const greeting = {
   username: "rpc1418",
   title: "Hi all, I'm Rudraksh Chourey",
   subTitle: emoji(
-    "An Electronics and Computer Engineering student at VIT Chennai, with a passion for data science, machine learning, ASIC Designing and software development. "
+    "An Electronics and Computer Engineering student at VIT Chennai, with a passion for software development, data science, machine learning, and ASIC Designing . "
   ),
-  ML_resumeLink:"https://drive.google.com/file/d/1zi70n1L5jMnte5xeWsISXPYuvCdxi_7F/view?usp=sharing",
-  EC_resumeLink:"https://drive.google.com/file/d/1w1L5pGEbHaptpT52qUUQTcnZ1no95dEO/view?usp=sharing",
-  SDE_resumeLink:"https://drive.google.com/file/d/10tz-tbf9Pu7ESZLnqIL7_roQFMrBvF1J/view?usp=sharing", // Set to empty to hide the button
+  ML_resumeLink:
+    "https://drive.google.com/file/d/1zi70n1L5jMnte5xeWsISXPYuvCdxi_7F/view?usp=sharing",
+  EC_resumeLink:
+    "https://drive.google.com/file/d/1w1L5pGEbHaptpT52qUUQTcnZ1no95dEO/view?usp=sharing",
+  SDE_resumeLink:
+    "https://drive.google.com/file/d/10tz-tbf9Pu7ESZLnqIL7_roQFMrBvF1J/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -55,11 +58,19 @@ const skillsSection = {
   subTitle: "Devlopment with a focus on AI, ML, and embedded systems.",
   skills: [
     emoji(
-      "💻 Proficient in programming and scripting languages including C, C++, Python, Java, and Dart, with strong full-stack development experience"
+      "💻 Proficient in C, C++, Python, Java, Swift, and Dart with experience in full-stack development using Spring Boot, React, REST APIs, and microservices."
     ),
-    emoji("🤖 Skilled in machine learning and deep learning using frameworks like TensorFlow, PyTorch, and Keras for data analytics and AI solutions."),
     emoji(
-      "🔧 Experienced in hardware programming and development tools such as Xilinx VIVADO, ZYNQ FPGA, and STM32, with solid project management skills using Git, JIRA, and Confluence."
+      "🤖 Skilled in machine learning, deep learning, and data analytics using TensorFlow, PyTorch, Keras, Scikit-learn, XGBoost, and LightGBM."
+    ),
+    emoji(
+      "☁️ Experienced in cloud-native development using AWS services such as Lambda, EC2, S3, DynamoDB, RDS, API Gateway, SNS, SQS, and EventBridge."
+    ),
+    emoji(
+      "📱 Experience building mobile and cross-platform apps using Flutter and iOS technologies including Swift and Xcode."
+    ),
+    emoji(
+      "🔧 Familiar with hardware development and developer tools including ZYNQ FPGA, STM32, VIVADO, Git, Postman, and Azure DevOps."
     )
   ],
 
@@ -68,153 +79,334 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-     
-      
-          skillName: "C",
-          fontAwesomeClassname: "fas fa-code"
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "fas fa-laptop-code"
-        },
-        {
-          skillName: "dart",
-          fontAwesomeClassname: "fab fa-apple"
-        },
-        {
-          skillName: "python",
-          fontAwesomeClassname: "fab fa-python"
-        },
-        {
-          skillName: "pandas",
-          fontAwesomeClassname: "fas fa-database"
-        },
-        {
-          skillName: "numpy",
-          fontAwesomeClassname: "fas fa-cubes"
-        },
-        {
-          skillName: "opencv",
-          fontAwesomeClassname: "fas fa-eye"
-        },
-        {
-          skillName: "pytorch",
-          fontAwesomeClassname: "fas fa-brain"
-        },
-        {
-          skillName: "pyspark",
-          fontAwesomeClassname: "fas fa-cloud"
-        },
-        {
-          skillName: "scikit-learn",
-          fontAwesomeClassname: "fas fa-graduation-cap"
-        },
-        {
-          skillName: "tensorflow",
-          fontAwesomeClassname: "fas fa-network-wired"
-        },
-        {
-          skillName: "keras",
-          fontAwesomeClassname: "fas fa-brain"
-        },
-        {
-          skillName: "R",
-          fontAwesomeClassname: "fab fa-r-project"
-        },
-        {
-          skillName: "SQL",
-          fontAwesomeClassname: "fas fa-database"
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "fab fa-java"
-        },
-        {
-          skillName: "verilog",
-          fontAwesomeClassname: "fas fa-microchip"
-        },
-        {
-          skillName: "shell",
-          fontAwesomeClassname: "fas fa-terminal"
-        },
-        {
-          skillName: "embedded-c",
-          fontAwesomeClassname: "fas fa-microchip"
-        },
-        {
-          skillName: "git",
-          fontAwesomeClassname: "fab fa-git"
-        },
-        {
-          skillName: "vs-code",
-          fontAwesomeClassname: "fas fa-code"
-        },
-        {
-          skillName: "pycharm",
-          fontAwesomeClassname: "fas fa-code"
-        },
-        {
-          skillName: "jira",
-          fontAwesomeClassname: "fab fa-jira"
-        },
-        {
-          skillName: "confluence",
-          fontAwesomeClassname: "fab fa-confluence"
-        },
-        {
-          skillName: "notebooks",
-          fontAwesomeClassname: "fas fa-book"
-        },
-        {
-          skillName: "ZYNQ FPGA",
-          fontAwesomeClassname: "fas fa-microchip"
-        },
-        {
-          skillName: "STM32",
-          fontAwesomeClassname: "fas fa-microchip"
-        },
-        {
-          skillName: "vivado",
-          fontAwesomeClassname: "fas fa-microchip"
-        },
-        {
-          skillName: "vitis",
-          fontAwesomeClassname: "fas fa-microchip"
-        },
-        {
-          skillName: "linux",
-          fontAwesomeClassname: "fab fa-linux"
-        },
-        {
-          skillName: "windows",
-          fontAwesomeClassname: "fab fa-windows"
-        },
-        {
-          skillName: "macos",
-          fontAwesomeClassname: "fab fa-apple"
-        },
-        {
-          skillName: "jtag",
-          fontAwesomeClassname: "fas fa-plug"
-        },
-        {
-          skillName: "uart",
-          fontAwesomeClassname: "fas fa-microchip"
-        },
-        {
-          skillName: "spi",
-          fontAwesomeClassname: "fas fa-signal"
-        },
-        {
-          skillName: "i2c",
-          fontAwesomeClassname: "fas fa-link"
-        },
-        {
-          skillName: "vga",
-          fontAwesomeClassname: "fas fa-tv"
-        }
-      ],
-      
+      skillName: "xcode",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+    {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "azure-devops",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "swift-ui",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "uikit",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+
+    {
+      skillName: "ios-26",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+
+    {
+      skillName: "core-data",
+      fontAwesomeClassname: "fas fa-database"
+    },
+
+    {
+      skillName: "mapkit",
+      fontAwesomeClassname: "fas fa-map"
+    },
+    {
+      skillName: "combine",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+
+    {
+      skillName: "cocoapods",
+      fontAwesomeClassname: "fas fa-box"
+    },
+    {
+      skillName: "swift-package-manager",
+      fontAwesomeClassname: "fas fa-cubes"
+    },
+    {
+      skillName: "mvc",
+      fontAwesomeClassname: "fas fa-layer-group"
+    },
+    {
+      skillName: "mvvm",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+
+    {
+      skillName: "spring-boot",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+
+    {
+      skillName: "spring-security",
+      fontAwesomeClassname: "fas fa-shield-alt"
+    },
+    {
+      skillName: "spring-data-jpa",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "spring-web",
+      fontAwesomeClassname: "fas fa-globe"
+    },
+    {
+      skillName: "rest-api",
+      fontAwesomeClassname: "fas fa-exchange-alt"
+    },
+    {
+      skillName: "microservices",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "aws-lambda",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "aws-ec2",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "aws-s3",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "dynamodb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "rds",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "api-gateway",
+      fontAwesomeClassname: "fas fa-plug"
+    },
+    {
+      skillName: "eventbridge",
+      fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "sns",
+      fontAwesomeClassname: "fas fa-bell"
+    },
+    {
+      skillName: "sqs",
+      fontAwesomeClassname: "fas fa-envelope"
+    },
+    {
+      skillName: "ses",
+      fontAwesomeClassname: "fas fa-paper-plane"
+    },
+    {
+      skillName: "flask",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+    {
+      skillName: "xgboost",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "lightgbm",
+      fontAwesomeClassname: "fas fa-chart-area"
+    },
+    {
+      skillName: "yolo",
+      fontAwesomeClassname: "fas fa-camera"
+    },
+    {
+      skillName: "lstm",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "gnn",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "postman",
+      fontAwesomeClassname: "fas fa-paper-plane"
+    },
+    {
+      skillName: "junit",
+      fontAwesomeClassname: "fas fa-vial"
+    },
+    {
+      skillName: "mockito",
+      fontAwesomeClassname: "fas fa-vial"
+    },
+    {
+      skillName: "swagger",
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "javadoc",
+      fontAwesomeClassname: "fas fa-book"
+    },
+
+    {
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-laptop-code"
+    },
+    {
+      skillName: "dart",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "pandas",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "numpy",
+      fontAwesomeClassname: "fas fa-cubes"
+    },
+    {
+      skillName: "opencv",
+      fontAwesomeClassname: "fas fa-eye"
+    },
+    {
+      skillName: "pytorch",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "pyspark",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "scikit-learn",
+      fontAwesomeClassname: "fas fa-graduation-cap"
+    },
+    {
+      skillName: "tensorflow",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "keras",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "verilog",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "shell",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "embedded-c",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "vs-code",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "pycharm",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "jira",
+      fontAwesomeClassname: "fab fa-jira"
+    },
+    {
+      skillName: "confluence",
+      fontAwesomeClassname: "fab fa-confluence"
+    },
+    {
+      skillName: "notebooks",
+      fontAwesomeClassname: "fas fa-book"
+    },
+    {
+      skillName: "ZYNQ FPGA",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "STM32",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "vivado",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "vitis",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "windows",
+      fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+      skillName: "macos",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+    {
+      skillName: "jtag",
+      fontAwesomeClassname: "fas fa-plug"
+    },
+    {
+      skillName: "uart",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "spi",
+      fontAwesomeClassname: "fas fa-signal"
+    },
+    {
+      skillName: "i2c",
+      fontAwesomeClassname: "fas fa-link"
+    },
+    {
+      skillName: "vga",
+      fontAwesomeClassname: "fas fa-tv"
+    }
+  ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -228,7 +420,7 @@ const educationInfo = {
       logo: require("./assets/images/vit.png"),
       subHeader: "Bacehlors in Electronics and Computer Engineering",
       duration: "September 2021 - Jully 2025",
-      desc: "CGPA:8.89"
+      desc: "CGPA:8.93"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -251,12 +443,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Development", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Software Development", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Embeded/RTL Coding",
-      progressPercentage: "80%"
+      progressPercentage: "50%"
     },
     {
       Stack: "AI/ML",
@@ -272,10 +464,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software and AI/ML Consultant",
+      company: "Encora",
+      companylogo: require("./assets/images/Encora.png"),
+      date: "August 2025 – Present",
+      desc: "Developing a lightweight solution to classify chat communications into family and non-family classes, creating a labeled dataset from real-life conversations, while focusing on demographic factors and model efficiency for on-device deployment."
+    },
+    {
       role: "NLP Project Concultancy",
       company: "Samsung",
       companylogo: require("./assets/images/Samsung.png"),
-      date: "October 2024 – Present",
+      date: "October 2024 – March 2025",
       desc: "Developing a lightweight solution to classify chat communications into family and non-family classes, creating a labeled dataset from real-life conversations, while focusing on demographic factors and model efficiency for on-device deployment."
     },
     {
@@ -294,7 +493,7 @@ const workExperiences = {
       company: "HCL-Tech",
       companylogo: require("./assets/images/hcltech_logo.png"),
       date: "Jul 2023 – Jun 2024",
-      desc: "Developed a Python-based tool that processes digital systems described in Verilog, extracts the Finite State Machine (FSM) from the design, and generates detailed information about the FSM, such as states, transitions, and output behavior. The tool automates the analysis and documentation of digital circuits, facilitating easier verification and debugging of complex designs. "
+      desc: "Developed a Python tool that extracts and analyzes FSMs from Verilog designs, automatically generating detailed states, transitions, and output behavior for easier verification and debugging of digital circuits. "
     },
     {
       role: "Research Intern and Trainee",
@@ -321,12 +520,26 @@ const bigProjects = {
   subtitle: "Few of the Major Projects i worked into...",
   projects: [
     {
-      image: require("./assets/images/facebookLogo.png"),
-      projectName: "ivats",
-      projectDesc: "IVATS is a Flutter-based app using YOLO V8 for object detection, tracking, trajectory extraction, conflict analysis, real-world coordinate conversion, and data visualization, aimed at improving traffic management and safety. Soon open-sourced.",
+      image: require("./assets/images/LHR.png"),
+      projectName: "LHR London Heathrow Airport",
+      projectDesc:
+        "The Heathrow Airport App — Your Ultimate Travel Partner Transform your journey through Heathrow into a seamless and enjoyable experience with the official Heathrow app. From tracking flights to exploring dining and shopping options, this app is designed to make every step of your travel stress-free and rewarding.",
       footerLink: [
         {
-          name: "Soon to be open Sourced",
+          name: "Visit Website",
+          url: "https://apps.apple.com/gb/app/lhr-london-heathrow-airport/id427951859"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/facebookLogo.png"),
+      projectName: "ivats",
+      projectDesc:
+        "IVATS is a Flutter-based app using YOLO V8 for object detection, tracking, trajectory extraction, conflict analysis, real-world coordinate conversion, and data visualization, aimed at improving traffic management and safety. Soon open-sourced.",
+      footerLink: [
+        {
+          name: "Soon to be open Sourced"
           // url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
@@ -335,7 +548,8 @@ const bigProjects = {
     {
       image: require("./assets/images/facebookLogo.png"),
       projectName: "IRAMA",
-      projectDesc: "Created a Linux application that disables the desktop at boot anddetects potholes through live camera feed using an ML model.The application logs data and uploads it to a Cloud server, running on a high performance Jetson board",
+      projectDesc:
+        "Created a Linux application that disables the desktop at boot anddetects potholes through live camera feed using an ML model.The application logs data and uploads it to a Cloud server, running on a high performance Jetson board",
       footerLink: [
         {
           name: "Visit Website",
@@ -346,7 +560,8 @@ const bigProjects = {
     {
       image: require("./assets/images/airbnbLogo.png"),
       projectName: "VGA Interfacing RTL",
-      projectDesc: "Designed RTLs for optimized real-time graphics generation, leverage on-board memory for frame buffers, and delve into FPGA parallelism, using VIVADO andVITIS for programming on Zynq FPGA 7020.",
+      projectDesc:
+        "Designed RTLs for optimized real-time graphics generation, leverage on-board memory for frame buffers, and delve into FPGA parallelism, using VIVADO andVITIS for programming on Zynq FPGA 7020.",
       footerLink: [
         {
           name: "Visit Website",
@@ -404,11 +619,11 @@ const achievementSection = {
 
     {
       title: "CSIR-CSIO Certificate of Training ",
-      subtitle: "Hands-on experience in advanced technologies and methodologies in research and development",
+      subtitle:
+        "Hands-on experience in advanced technologies and methodologies in research and development",
       image: require("./assets/images/airbnbLogo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-   
         {
           name: "Training Certificate",
           url: "https://drive.google.com/file/d/10XDETo1I0QIRdtnVM-YSHnsSRuQv7WLH/view?trk=public_profile_see-credential"

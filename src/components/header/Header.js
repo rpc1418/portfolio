@@ -14,7 +14,7 @@ import {
   resumeSection
 } from "../../portfolio";
 
-function Header({ openPopup }) {
+function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
@@ -74,7 +74,12 @@ function Header({ openPopup }) {
           {viewResume && (
             <li>
               <a
-                onClick={openPopup} style={{ cursor: "pointer" }}
+                href={greeting.SDE_resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                // download="Resume.pdf"
+                className="download-link-button"
+                style={{cursor: "pointer"}}
               >
                 Resume
               </a>

@@ -1,7 +1,8 @@
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(5, 1fr); // exactly 5 columns
+  gap: 1.5rem;
+  justify-items: center; // center items in last row
 }
 
 .experience-heading {
@@ -13,7 +14,7 @@
   display: flex;
   width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
@@ -21,15 +22,34 @@
   flex: 1;
 }
 
-/* Media Query */
-
+/* Slightly smaller desktops */
 @media (max-width: 1380px) {
   .experience-heading {
     font-size: 40px;
   }
 }
 
+/* Large laptop / tablet */
+@media (max-width: 1200px) {
+  .experience-cards-div {
+    grid-template-columns: repeat(3, 1fr); // 3 per row
+    justify-items: center;
+  }
+}
+
+/* Small tablet / large mobile */
+@media (max-width: 992px) {
+  .experience-cards-div {
+    grid-template-columns: repeat(2, 1fr); // 2 per row
+  }
+}
+
+/* Mobile */
 @media (max-width: 768px) {
+  .experience-cards-div {
+    grid-template-columns: 1fr; // 1 per row
+  }
+
   .experience-heading {
     font-size: 30px;
     text-align: center;

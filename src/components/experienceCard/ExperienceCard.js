@@ -1,21 +1,37 @@
-import React, {useState, createRef} from "react";
+import React, {useState, createRef, useEffect, useRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
+  const [isDescExpanded, setIsDescExpanded] = useState(false);
+  const [isDescOverflow, setIsDescOverflow] = useState(false);
   const imgRef = createRef();
+  const descRef = useRef(null);
 
   function getColorArrays() {
     const colorThief = new ColorThief();
     setColorArrays(colorThief.getColor(imgRef.current));
   }
 
+  useEffect(() => {
+    if (descRef.current) {
+      const lineHeight = 20; // approx 1.25rem line height
+      const maxLines = 4;
+      const maxHeight = lineHeight * maxLines;
+      setIsDescOverflow(descRef.current.scrollHeight > maxHeight);
+    }
+  }, [cardInfo.desc]);
+
   function rgb(values) {
     return typeof values === "undefined"
       ? null
       : "rgb(" + values.join(", ") + ")";
   }
+
+  const toggleDesc = () => {
+    setIsDescExpanded(!isDescExpanded);
+  };
 
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
@@ -67,14 +83,26 @@ export default function ExperienceCard({cardInfo, isDark}) {
           {cardInfo.date}
         </h5>
         <p
+          ref={descRef}
           className={
             isDark
               ? "subTitle experience-text-desc dark-mode-text"
               : "subTitle experience-text-desc"
           }
+          style={{
+            maxHeight: isDescExpanded || !isDescOverflow ? "none" : "80px",
+            overflow: "hidden",
+            transition: "max-height 0.3s ease",
+            marginBottom: isDescOverflow ? "0" : "inherit"
+          }}
         >
           {cardInfo.desc}
         </p>
+        {isDescOverflow && (
+          <button className="read-more-btn" onClick={toggleDesc}>
+            {isDescExpanded ? "Read Less" : "Read More"}
+          </button>
+        )}
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
