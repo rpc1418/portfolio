@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a5d56cf2.css",
-    "main.js": "/portfolio/static/js/main.b3159725.js",
+    "main.js": "/portfolio/static/js/main.0b54f484.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.3403a3a1.chunk.js": "/portfolio/static/js/64.3403a3a1.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.800d1cb9.chunk.js": "/portfolio/static/js/769.800d1cb9.chunk.js",
-    "static/media/IMG_20260225_223230.jpg.jpeg": "/portfolio/static/media/IMG_20260225_223230.jpg.325590a3540b695c069a.jpeg",
+    "static/media/photo.png": "/portfolio/static/media/photo.2e86f502e3b78a004e89.png",
     "static/media/facebookLogo.png": "/portfolio/static/media/facebookLogo.d04926bac495f82cd525.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -23,7 +23,7 @@
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/portfolio/index.html",
     "main.a5d56cf2.css.map": "/portfolio/static/css/main.a5d56cf2.css.map",
-    "main.b3159725.js.map": "/portfolio/static/js/main.b3159725.js.map",
+    "main.0b54f484.js.map": "/portfolio/static/js/main.0b54f484.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.3403a3a1.chunk.js.map": "/portfolio/static/js/64.3403a3a1.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.a5d56cf2.css",
-    "static/js/main.b3159725.js"
+    "static/js/main.0b54f484.js"
   ]
 }
