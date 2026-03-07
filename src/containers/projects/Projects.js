@@ -22,15 +22,15 @@ export default function Projects() {
       console.log("Fetching repository data...");
       fetch("/portfolio/profile.json", {
         headers: {
-          'Content-Type': 'applissscation/json',
-          'Accept': 'application/json'
+          "Content-Type": "applissscation/json",
+          Accept: "application/json"
         }
       })
         .then(result => {
           if (!result.ok) {
             throw new Error("Failed to fetch");
           }
-          return result.json();  // Try to parse the JSON
+          return result.json(); // Try to parse the JSON
         })
         .then(response => {
           console.log("Data fetched successfully.", response);
@@ -45,8 +45,6 @@ export default function Projects() {
     };
     getRepoData();
   }, []);
-  
-  
 
   function setrepoFunction(array) {
     console.log("Setting repository data:", array); // Log the array being set to state

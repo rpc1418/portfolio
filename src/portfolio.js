@@ -23,7 +23,7 @@ const greeting = {
   username: "rpc1418",
   title: "Hi all, I'm Rudraksh Chourey",
   subTitle: emoji(
-    "An Electronics and Computer Engineering student at VIT Chennai, with a passion for software development, data science, machine learning, and ASIC Designing . "
+    "I’m a Software and AI/ML Consultant at Encora Inc. with a strong interest in machine learning, data science, and software development. I enjoy building practical AI solutions and exploring innovations at the intersection of hardware and intelligent software. "
   ),
   ML_resumeLink:
     "https://drive.google.com/file/d/1zi70n1L5jMnte5xeWsISXPYuvCdxi_7F/view?usp=sharing",
@@ -58,7 +58,7 @@ const skillsSection = {
   subTitle: "Devlopment with a focus on AI, ML, and embedded systems.",
   skills: [
     emoji(
-      "💻 Proficient in C, C++, Python, Java, Swift, and Dart with experience in full-stack development using Spring Boot, React, REST APIs, and microservices."
+      "💻 Proficient in Python, Java, Swift, and Dart with experience in full-stack development using Spring Boot, React, REST APIs, and microservices."
     ),
     emoji(
       "🤖 Skilled in machine learning, deep learning, and data analytics using TensorFlow, PyTorch, Keras, Scikit-learn, XGBoost, and LightGBM."
@@ -135,31 +135,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-project-diagram"
     },
 
-    {
-      skillName: "spring-boot",
-      fontAwesomeClassname: "fas fa-leaf"
-    },
-
-    {
-      skillName: "spring-security",
-      fontAwesomeClassname: "fas fa-shield-alt"
-    },
-    {
-      skillName: "spring-data-jpa",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "spring-web",
-      fontAwesomeClassname: "fas fa-globe"
-    },
-    {
-      skillName: "rest-api",
-      fontAwesomeClassname: "fas fa-exchange-alt"
-    },
-    {
-      skillName: "microservices",
-      fontAwesomeClassname: "fas fa-network-wired"
-    },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
@@ -245,6 +220,35 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-paper-plane"
     },
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "spring-boot",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+
+    {
+      skillName: "spring-security",
+      fontAwesomeClassname: "fas fa-shield-alt"
+    },
+    {
+      skillName: "spring-data-jpa",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "spring-web",
+      fontAwesomeClassname: "fas fa-globe"
+    },
+    {
+      skillName: "rest-api",
+      fontAwesomeClassname: "fas fa-exchange-alt"
+    },
+    {
+      skillName: "microservices",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
       skillName: "junit",
       fontAwesomeClassname: "fas fa-vial"
     },
@@ -261,18 +265,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-book"
     },
 
-    {
-      skillName: "C",
-      fontAwesomeClassname: "fas fa-code"
-    },
-    {
-      skillName: "C++",
-      fontAwesomeClassname: "fas fa-laptop-code"
-    },
-    {
-      skillName: "dart",
-      fontAwesomeClassname: "fab fa-apple"
-    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -317,10 +309,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
+
     {
       skillName: "verilog",
       fontAwesomeClassname: "fas fa-microchip"
@@ -468,13 +457,13 @@ const workExperiences = {
       company: "Encora",
       companylogo: require("./assets/images/Encora.png"),
       date: "August 2025 – Present",
-      desc: "Developing a lightweight solution to classify chat communications into family and non-family classes, creating a labeled dataset from real-life conversations, while focusing on demographic factors and model efficiency for on-device deployment."
+      desc: "Developing efficient and Scalable cloud and full-stack systems and solutions in AWS, Core Java and Spring with experience in iOS development within Agile workflows using Azure DevOps"
     },
     {
       role: "NLP Project Concultancy",
       company: "Samsung",
       companylogo: require("./assets/images/Samsung.png"),
-      date: "October 2024 – March 2025",
+      date: "Oct 2024 – March 2025",
       desc: "Developing a lightweight solution to classify chat communications into family and non-family classes, creating a labeled dataset from real-life conversations, while focusing on demographic factors and model efficiency for on-device deployment."
     },
     {

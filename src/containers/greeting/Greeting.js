@@ -8,7 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-import myImage from "../../assets/images/myimg.png";
+import myImage from "../../assets/images/IMG_20260225_223230.jpg.jpeg";
 
 export default function Greeting() {
   // Accept openPopup as a prop
